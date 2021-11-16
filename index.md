@@ -1,4 +1,4 @@
-### Purpose
+### My Goal
 
 Herbicide distributions require optimization in order to fully utilize the potential of smart sprayers. This page is dedicated to distribution data collection and modeling, and particularly the viability of data stacking of one distribution in order to simulate multiple nozzles on one sprayer boom. The tools below will be left here until the final version in order to help with the page construction
 
