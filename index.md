@@ -13,8 +13,9 @@ While there is data for a combination of nozzles, heights and amounts, at the mo
 ![img](Graph1.png)
 *Sample mean distribution plots*
 
-The first output of the code is taking the mean of the individual samples in each column. Since there are three nozzles at 15" Spacing, the model emulates a nozzle at -15", 0" and 15", done by shifting the 1" matrix columns accordingly during calculation. This gives a quick visual cue of the true data peaking off to the left of center, but for more meaningful numbers we will get the errors of individual samples as percentages, where (Error %) = ((Stacked Data)-(Real Data)/(Real Data)), with divide by zero columns being ignored. The results are shown here
+The first output of the code is taking the mean of the individual samples in each column. Since there are three nozzles at 15" Spacing, the model emulates a nozzle at -15", 0" and 15", done by shifting the 1" matrix columns accordingly during calculation. This gives a quick visual cue of the true data peaking off to the left of center, but for more meaningful numbers we will get the errors of individual samples as percentages, where (Error %) = ((Stacked Data)-(Real Data)/(Real Data)), with divide by zero columns being ignored. The results for the first three samples are shown here
 ![img](Graph2.png)
+This will be our "training" data that gets three values for expected error at each location
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/basuby/516x-website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
