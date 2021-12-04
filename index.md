@@ -6,6 +6,8 @@ Herbicide distributions require optimization in order to fully utilize the poten
 
 This page will utilize a data file that will be linked [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ) later, but for now this will be a placeholder link. Utilizing this data, graphical output will be displayed and discussed below about the observed error between a stacked model and observed data for a three-nozzle setup, with a chosen model scheme of the error that can "correct" this data, as well as the tests.
 
+![img](Graph1.png)
+
 
 ## Welcome to GitHub Pages
 
