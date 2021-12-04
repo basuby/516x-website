@@ -1,10 +1,9 @@
 ### My Goal
 
-Herbicide distributions require optimization in order to fully utilize the potential of smart sprayers. This page is dedicated to distribution data collection and modeling, and particularly the viability of data stacking of one distribution in order to simulate multiple nozzles on one sprayer boom. The tools below will be left here until the final version in order to help with the page construction
+Mass application of herbicide is a cornerstone of modern agriculture, allowing weed control over larger and larger acres. However, overapplication in the last few decades is costing unnecessary amounts to farmers as well as contaminating freshwater lakes, streams and rivers. USDA estimates put herbicide drift in particular as responsible for over 55% of these sources being contaminated. In order to reduce the necessary application rates of herbicide, modeling the distribution of spray is done to simulate how much liquid will be applied upon detection of a weed. To do this, and avoid having to simulate every amount of nozzles individually, one such method is to take the distribution of one nozzle and simply 'stack' them, or place a distribution centered at each nozzle location and sum overlapping data. Error between this method and actual results with these nozzle amounts is expected, and for this study my overall question is: *"Is error between modeled spray and real spray significant?"*, with the follow-up of *"If so, is the error predictable and repeatable based on location?"*
 
 ## Materials
-
-This page will utilize a data file that will be linked [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ) later, but for now this will be a placeholder link. Utilizing this data, graphical output will be displayed and discussed below about the observed error between a stacked model and observed data for a three-nozzle setup, with a chosen model scheme of the error that can "correct" this data, as well as the tests.
+[Here](NozzleBootstrap.m) 
 
 ![img](Graph1.png)
 
