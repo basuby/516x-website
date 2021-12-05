@@ -22,6 +22,16 @@ However, trying to find the error behavior is only useful if the error behavior 
 
 ![img](Graph4.png)
 
+Less than half of the datapoints were actually following the model, with the most important central datapoints being nearly all outside of these bounds, nowhere near the 95% of datapoints that would be expected. Unfortunately, it does not appear that there is a consistent source or pattern of error in the stacking model that can be numerically modeled, so our answer to both objective questions is no.
+
+## Next steps
+
+Without a way to properly calculate the error relationship between the stacked model and real data, we can still utilize this data to set guidelines for future use. For this particular setup, we could observe that the error between the spacing coordinates (-15" to 15") varied from -20% to +20%, and when utilizing stacking in the future note that all values trying to reach a target threshold surpass it by such that even -20% error still satisfies the value necessary. 
+
+## Assignment
+
+Using this code as a reference, write code that will take the minimum value of error between -15" and 15" (a.k.a the maximum negative error) for a given nozzle setup. Then, enter a target mL range, and have the code plot the data factored with the maximimum negative error against this target, and return the proportion of columns that reached the minimum target amount.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/basuby/516x-website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
