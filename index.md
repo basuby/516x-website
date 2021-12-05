@@ -20,6 +20,7 @@ This will be our "training" data that gets three values for expected error at ea
 
 However, trying to find the error behavior is only useful if the error behavior is consistent and can be corrected. To do this, I took the three samples of error and bootstrapped the data, simulating the mean of 1,000 samples from this "population". Using an assumed t-distribution, a 95% CI was constructed for the error at each point. This confidence interval was then converted into an expected three-nozzle distribution bounds, and all three sets of training data were evaluated to see the accuracy of these bounds.
 
+
 ![img](Graph4.png)
 ## Welcome to GitHub Pages
 
