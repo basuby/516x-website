@@ -7,6 +7,7 @@ To do this, and avoid having to simulate every amount of nozzles individually, o
 ![img](40Deg.gif)
 ![img](65Deg.gif)
 ![img](120Deg.gif)
+
 Error between this method and actual results with these nozzle amounts is expected, and for this study my overall question is: *"Is error between modeled spray and real spray significant?"*, with the follow-up of *"If so, is the error predictable and repeatable based on location?"*
 
 ## Materials
