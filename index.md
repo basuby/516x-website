@@ -2,7 +2,7 @@
 
 Mass application of herbicide is a cornerstone of modern agriculture, allowing weed control over larger and larger acres. However, overapplication in the last few decades is costing unnecessary amounts to farmers as well as contaminating freshwater lakes, streams and rivers. USDA estimates put herbicide drift in particular as responsible for over 55% of these sources being contaminated. In order to reduce the necessary application rates of herbicide, modeling the distribution of spray is done to simulate how much liquid will be applied upon detection of a weed. 
 
-## Distribution modeling
+## Research question: Distribution modeling
 To do this, and avoid having to simulate every amount of nozzles individually, one such method is to take the distribution of one nozzle and simply 'stack' them, or place a distribution centered at each nozzle location and sum overlapping data. The graphs below are examples of this for three nozzles, plotted between 50-100 cm (20"-40")
 ![img](40Deg.gif)
 ![img](65Deg.gif)
