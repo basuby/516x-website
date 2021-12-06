@@ -5,8 +5,8 @@ Mass application of herbicide is a cornerstone of modern agriculture, allowing w
 ## Distribution modeling
 To do this, and avoid having to simulate every amount of nozzles individually, one such method is to take the distribution of one nozzle and simply 'stack' them, or place a distribution centered at each nozzle location and sum overlapping data. The graphs below are examples of this for three nozzles, plotted between 50-100 cm (20"-40")
 ![img](40Deg.gif)
-
-
+![img](65Deg.gif)
+![img](120Deg.gif)
 Error between this method and actual results with these nozzle amounts is expected, and for this study my overall question is: *"Is error between modeled spray and real spray significant?"*, with the follow-up of *"If so, is the error predictable and repeatable based on location?"*
 
 ## Materials
