@@ -17,6 +17,20 @@ Error between this method and actual results with these nozzle amounts is expect
 
 While there is data for a combination of nozzles, heights and amounts, at the moment only the F8003 nozzle at 30" Height and 15" Spacing contains enough samples to run a good analysis for a 3-nozzle setup. When editing the code and changing inputs, change information in the "Input" tab in the data sheet. The code utilizes these inputs to index search the table  
 
+## Concepts
+# Data summarizing
+Nearly 60 combinations of nozzle type, nozzle height, and nozzle amounts are stored in the datasheet with multiple reps each of 117 entries
+Logical indexing and graphing used to transform large table into manageable information
+
+# Bootstrap/replication
+While there is a large variety of data, each entry only has 3-6 samples to work with, and new samples take hours to collect
+Bootstrapping allows for simulation to give a possibility for stronger analysis with the amount currently on hand
+
+# Statistical analysis
+Once an error relationship was calculated from the first samples, the reliability of this error was tested
+A 95% confidence interval combined with a binomial probability was used to evaluate the results
+
+
 ## Analysis
 ![img](Graph1.png)
 *Sample mean distribution plots*
@@ -31,7 +45,7 @@ This will be our "training" data that gets three values for expected error at ea
 
 However, trying to find the error behavior is only useful if the error behavior is consistent and can be corrected. To do this, I took the three samples of error and bootstrapped the data, simulating the mean of 1,000 samples from this "population". Using an assumed t-distribution, a 95% CI was constructed for the error at each point. This confidence interval was then converted into an expected three-nozzle distribution bounds, and all three sets of training data were evaluated to see the accuracy of these bounds.
 
-![img](Graph4.png)
+
 
 Less than half of the datapoints were actually following the model, with the most important central datapoints being nearly all outside of these bounds, nowhere near the 95% of datapoints that would be expected. Unfortunately, it does not appear that there is a consistent source or pattern of error in the stacking model that can be numerically modeled, so our answer to both objective questions is no.
 
