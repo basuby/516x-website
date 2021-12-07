@@ -45,7 +45,7 @@ This will be our "training" data that gets three values for expected error at ea
 
 However, trying to find the error behavior is only useful if the error behavior is consistent and can be corrected. To do this, I took the three samples of error and bootstrapped the data, simulating the mean of 1,000 samples from this "population". Using an assumed t-distribution, a 95% CI was constructed for the error at each point. This confidence interval was then converted into an expected three-nozzle distribution bounds, and all three sets of training data were evaluated to see the accuracy of these bounds.
 
-
+![img](Graph4.png)
 
 Less than half of the datapoints were actually following the model, with the most important central datapoints being nearly all outside of these bounds, nowhere near the 95% of datapoints that would be expected. Unfortunately, it does not appear that there is a consistent source or pattern of error in the stacking model that can be numerically modeled, so our answer to both objective questions is no.
 
@@ -53,7 +53,11 @@ Less than half of the datapoints were actually following the model, with the mos
 
 Without a way to properly calculate the error relationship between the stacked model and real data, we can still utilize this data to set guidelines for future use. For this particular setup, we could observe that the error between the spacing coordinates (-15" to 15") varied from -20% to +20%, and when utilizing stacking in the future note that all values trying to reach a target threshold surpass it by such that even -20% error still satisfies the value necessary. 
 
+## F.A.I.R. Evaluation
+
+As this code utilizes a standard excel file describing nozzle type, height, and spacing, among other variables, the data easily follows the Findable and Accessible principles. However, the nature of the data holds exactly 1" increments from -58 to 58", making it difficult to be interoperable with other data unless it is similarly structured. The data is also moderately Reuasable, and be continuously updated without issue 
+
 ## Assignment
 
-Using this code as a reference, write code that will take the minimum value of error between -15" and 15" (a.k.a the maximum negative error) for a given nozzle setup. Then, enter a target mL range, and have the code plot the data factored with the maximimum negative error against this target, and return the proportion of columns that reached the minimum target amount.
+Using this code as a reference, write code that will take the minimum value of model error between -15" and 15" (a.k.a the maximum negative error) for a given nozzle setup. Then using a target of 25 mL, use the code plot the data factored with the maximimum negative error against this target, and return the proportion of columns that reached the minimum target amount. (e.g., if the maximum negative value is -15%, plot the data multiplied by .85, and see how many are greater than 25 mL)
 
