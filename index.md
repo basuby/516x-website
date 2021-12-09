@@ -34,7 +34,7 @@ A 95% confidence interval combined with a binomial probability was used to evalu
 
 ![img](Workflow.PNG)
 
-### Analysis
+## Analysis
 ![img](Graph1.png)
 *Sample mean distribution plots*
 
