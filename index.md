@@ -1,4 +1,4 @@
-### My Goal
+# My Goal
 
 Mass application of herbicide is a cornerstone of modern agriculture, allowing weed control over larger and larger acres. However, overapplication in the last few decades is costing unnecessary amounts to farmers as well as contaminating freshwater lakes, streams and rivers. USDA estimates put herbicide drift in particular as responsible for over 55% of these sources being contaminated. In order to reduce the necessary application rates of herbicide, modeling the distribution of spray is done to simulate how much liquid will be applied upon detection of a weed. 
 
@@ -18,23 +18,23 @@ Error between this method and actual results with these nozzle amounts is expect
 While there is data for a combination of nozzles, heights and amounts, at the moment only the F8003 nozzle at 30" Height and 15" Spacing contains enough samples to run a good analysis for a 3-nozzle setup. When editing the code and changing inputs, change information in the "Input" tab in the data sheet. The code utilizes these inputs to index search the table  
 
 ## Concepts
-# Data summarizing
+### Data summarizing
 Nearly 60 combinations of nozzle type, nozzle height, and nozzle amounts are stored in the datasheet with multiple reps each of 117 entries
 Logical indexing and graphing used to transform large table into manageable information
 
-# Bootstrap/replication
+### Bootstrap/replication
 While there is a large variety of data, each entry only has 3-6 samples to work with, and new samples take hours to collect
 Bootstrapping allows for simulation to give a possibility for stronger analysis with the amount currently on hand
 
-# Statistical analysis
+### Statistical analysis
 Once an error relationship was calculated from the first samples, the reliability of this error was tested
 A 95% confidence interval combined with a binomial probability was used to evaluate the results
 
-## Workflow
+### Workflow
 
 ![img](Workflow.PNG)
 
-## Analysis
+### Analysis
 ![img](Graph1.png)
 *Sample mean distribution plots*
 
