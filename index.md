@@ -30,6 +30,9 @@ Bootstrapping allows for simulation to give a possibility for stronger analysis 
 Once an error relationship was calculated from the first samples, the reliability of this error was tested
 A 95% confidence interval combined with a binomial probability was used to evaluate the results
 
+## Workflow
+
+![img](Workflow.png)
 
 ## Analysis
 ![img](Graph1.png)
