@@ -19,15 +19,15 @@ While there is data for a combination of nozzles, heights and amounts, at the mo
 
 ## Concepts
 ### Data summarizing
-Nearly 60 combinations of nozzle type, nozzle height, and nozzle amounts are stored in the datasheet with multiple reps each of 117 entries
-Logical indexing and graphing used to transform large table into manageable information
+Nearly 60 combinations of nozzle type, nozzle height, and nozzle amounts are stored in the datasheet with multiple reps each of 117 entries.
+Logical indexing and graphing were used to transform large table into manageable information
 
 ### Bootstrap/replication
-While there is a large variety of data, each entry only has 3-6 samples to work with, and new samples take hours to collect
+While there is a large variety of data, each entry only has 3-6 samples to work with, and new samples take hours to collect. 
 Bootstrapping allows for simulation to give a possibility for stronger analysis with the amount currently on hand
 
 ### Statistical analysis
-Once an error relationship was calculated from the first samples, the reliability of this error was tested
+Once an error relationship was calculated from the first samples, the reliability of this error was tested. 
 A 95% confidence interval combined with a binomial probability was used to evaluate the results
 
 ### Workflow
