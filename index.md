@@ -32,7 +32,7 @@ A 95% confidence interval combined with a binomial probability was used to evalu
 
 ## Workflow
 
-![img](Workflow.png)
+![img](Workflow.PNG)
 
 ## Analysis
 ![img](Graph1.png)
